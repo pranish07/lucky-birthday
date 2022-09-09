@@ -44,11 +44,12 @@ label {
   color: var(--secondary-color);
 }
 .online-presence{
-    width: 50%;
+    width: 100%;
     margin: auto;
    position:fixed;
    bottom:0;
    font-size: medium;
+   text-align: center;
 }
 .online-presence p{
     margin-block-start:0px;
@@ -72,4 +73,12 @@ label {
     text-decoration: none;
     color: var(--primary-color);
 
+}
+@media only screen and (max-width: 500px){
+  .container,h1{
+    width:90%;
+  }
+  .online-presence{
+    width:100%;
+  }
 }
