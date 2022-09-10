@@ -1,0 +1,1 @@
+## is your birthday lucky ? is an app which tells you whether you birthday with your lucky number is lucky or not by guessing(randomly). 
